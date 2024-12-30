@@ -1,0 +1,12 @@
+[data-inline-style='RED'] {
+  color: red;
+}
+
+[data-inline-style='UNDERLINE'] {
+  text-decoration: underline;
+}
+
+.public-DraftStyleDefault-block .public-DraftStyleDefault-header-one {
+  font-size: 24px;
+  font-weight: bold;
+}
