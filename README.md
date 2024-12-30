@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Draft.js Editor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A rich-text editor built using **Draft.js**, providing basic text styling like headings, bold, red-colored text, and underlining, with a sleek user interface. The project also includes a **Documentation** modal explaining how to use the editor.
 
-## Available Scripts
+## Demo
 
-In the project directory, you can run:
+Check out the live demo of the editor here: [Draft.js Editor](https://draftjseditor.vercel.app/)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Text Formatting**: 
+  - Create headings by typing `#` followed by a space.
+  - Apply bold styling by typing `*` followed by a space.
+  - Apply red-colored text with `**` followed by a space.
+  - Underline text by typing `***` followed by a space.
+  
+- **Save Content**: Save the editor's content locally using the Save button.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Responsive Design**: Fully responsive layout, optimized for both mobile and desktop devices.
 
-### `npm test`
+- **Documentation Modal**: Learn how to use the editor via a user-friendly documentation modal with clear instructions.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation & Setup
 
-### `npm run build`
+To get the project up and running locally on your machine, follow the steps below.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Ensure that you have **Node.js** and **npm** installed on your system. If you don't have them, you can install Node.js from [here](https://nodejs.org/).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 1. Clone the Repository
 
-### `npm run eject`
+Clone the project to your local machine using the following command:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+git clone https://github.com/SiddhanthShah100/draftjs-editor.git
+cd draftjs-editor
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 2. Install dependencies
+```
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 3. Start the project
+```
+npm start
+```
